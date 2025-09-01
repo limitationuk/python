@@ -1,0 +1,1287 @@
+{
+    "user_db": {
+        "197바1681": {
+            "start_time": "2025-09-01 12:23",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 36,
+            "car_type": "4.해당사항 없음"
+        },
+        "958자1249": {
+            "start_time": "2025-08-30 05:52",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 26,
+            "car_type": "1.소형"
+        },
+        "447파9770": {
+            "start_time": "2025-08-31 18:46",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 29,
+            "car_type": "1.소형"
+        },
+        "214카3451": {
+            "start_time": "2025-08-29 14:07",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 35,
+            "car_type": "1.소형"
+        },
+        "125타6560": {
+            "start_time": "2025-08-31 23:37",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 67,
+            "car_type": "1.소형"
+        },
+        "483파7084": {
+            "start_time": "2025-08-31 08:43",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 58,
+            "car_type": "1.소형"
+        },
+        "935아7363": {
+            "start_time": "2025-08-30 06:24",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 3,
+            "car_type": "2.전기"
+        },
+        "621하7900": {
+            "start_time": "2025-08-31 02:48",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 47,
+            "car_type": "2.전기"
+        },
+        "349차4627": {
+            "start_time": "2025-08-30 09:08",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 60,
+            "car_type": "1.소형"
+        },
+        "264라5558": {
+            "start_time": "2025-08-31 01:24",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 74,
+            "car_type": "3.장애인"
+        },
+        "199카3638": {
+            "start_time": "2025-08-31 02:16",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 38,
+            "car_type": "2.전기"
+        },
+        "198자3251": {
+            "start_time": "2025-08-30 09:01",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 42,
+            "car_type": "1.소형"
+        },
+        "615카3042": {
+            "start_time": "2025-08-30 18:43",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 77,
+            "car_type": "1.소형"
+        },
+        "410파3806": {
+            "start_time": "2025-08-29 15:02",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 19,
+            "car_type": "3.장애인"
+        },
+        "515가2148": {
+            "start_time": "2025-08-31 12:33",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 17,
+            "car_type": "4.해당사항 없음"
+        },
+        "666하3553": {
+            "start_time": "2025-08-30 12:22",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 38,
+            "car_type": "2.전기"
+        },
+        "886하5174": {
+            "start_time": "2025-08-31 04:11",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 46,
+            "car_type": "1.소형"
+        },
+        "366카7405": {
+            "start_time": "2025-08-30 11:34",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 18,
+            "car_type": "4.해당사항 없음"
+        },
+        "105다9594": {
+            "start_time": "2025-08-30 16:58",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 63,
+            "car_type": "4.해당사항 없음"
+        },
+        "303가6826": {
+            "start_time": "2025-08-31 14:56",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 96,
+            "car_type": "2.전기"
+        },
+        "795바5377": {
+            "start_time": "2025-08-29 13:34",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 100,
+            "car_type": "1.소형"
+        },
+        "724마6757": {
+            "start_time": "2025-09-01 04:51",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 20,
+            "car_type": "3.장애인"
+        },
+        "448파5251": {
+            "start_time": "2025-08-30 16:39",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 38,
+            "car_type": "2.전기"
+        },
+        "982바4135": {
+            "start_time": "2025-08-30 01:55",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 78,
+            "car_type": "3.장애인"
+        },
+        "236차3651": {
+            "start_time": "2025-08-29 23:47",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 11,
+            "car_type": "2.전기"
+        },
+        "113하8197": {
+            "start_time": "2025-08-29 18:27",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 17,
+            "car_type": "2.전기"
+        },
+        "964바9256": {
+            "start_time": "2025-08-30 00:53",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 87,
+            "car_type": "3.장애인"
+        },
+        "515자1370": {
+            "start_time": "2025-08-31 03:15",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 6,
+            "car_type": "4.해당사항 없음"
+        },
+        "165마4739": {
+            "start_time": "2025-08-30 06:46",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 46,
+            "car_type": "1.소형"
+        },
+        "256아8120": {
+            "start_time": "2025-08-31 01:29",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 80,
+            "car_type": "4.해당사항 없음"
+        },
+        "884나8581": {
+            "start_time": "2025-08-31 23:31",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 47,
+            "car_type": "4.해당사항 없음"
+        },
+        "679자4235": {
+            "start_time": "2025-08-31 10:49",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 25,
+            "car_type": "3.장애인"
+        },
+        "288다5688": {
+            "start_time": "2025-09-01 04:18",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 63,
+            "car_type": "1.소형"
+        },
+        "916바2943": {
+            "start_time": "2025-08-29 18:10",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 63,
+            "car_type": "1.소형"
+        },
+        "608파3678": {
+            "start_time": "2025-08-29 21:42",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 89,
+            "car_type": "1.소형"
+        },
+        "104차9290": {
+            "start_time": "2025-08-30 16:28",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 50,
+            "car_type": "3.장애인"
+        },
+        "140자3680": {
+            "start_time": "2025-08-30 15:12",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 42,
+            "car_type": "3.장애인"
+        },
+        "205라3594": {
+            "start_time": "2025-08-30 19:36",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 53,
+            "car_type": "4.해당사항 없음"
+        },
+        "239아8013": {
+            "start_time": "2025-08-31 05:31",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 79,
+            "car_type": "2.전기"
+        },
+        "662하9402": {
+            "start_time": "2025-08-30 07:27",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 57,
+            "car_type": "1.소형"
+        },
+        "149파5798": {
+            "start_time": "2025-08-30 10:15",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 92,
+            "car_type": "2.전기"
+        },
+        "771사2655": {
+            "start_time": "2025-08-30 06:06",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 48,
+            "car_type": "4.해당사항 없음"
+        },
+        "245다5745": {
+            "start_time": "2025-08-31 23:43",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 62,
+            "car_type": "1.소형"
+        },
+        "563카9985": {
+            "start_time": "2025-08-30 23:23",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 27,
+            "car_type": "3.장애인"
+        },
+        "554카8056": {
+            "start_time": "2025-08-29 13:43",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 20,
+            "car_type": "2.전기"
+        },
+        "306마9372": {
+            "start_time": "2025-08-31 03:48",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 89,
+            "car_type": "1.소형"
+        },
+        "305나8524": {
+            "start_time": "2025-08-30 14:07",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 15,
+            "car_type": "4.해당사항 없음"
+        },
+        "895바7167": {
+            "start_time": "2025-09-01 08:28",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 80,
+            "car_type": "3.장애인"
+        },
+        "103카6077": {
+            "start_time": "2025-09-01 09:54",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 54,
+            "car_type": "3.장애인"
+        },
+        "692사4326": {
+            "start_time": "2025-08-29 15:07",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 57,
+            "car_type": "4.해당사항 없음"
+        },
+        "380차8636": {
+            "start_time": "2025-08-29 21:45",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 29,
+            "car_type": "3.장애인"
+        },
+        "927마9368": {
+            "start_time": "2025-08-30 18:58",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 89,
+            "car_type": "4.해당사항 없음"
+        },
+        "672카5964": {
+            "start_time": "2025-08-31 01:12",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 54,
+            "car_type": "2.전기"
+        },
+        "522파9241": {
+            "start_time": "2025-09-01 02:37",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 51,
+            "car_type": "4.해당사항 없음"
+        },
+        "657카7162": {
+            "start_time": "2025-08-29 17:48",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 62,
+            "car_type": "1.소형"
+        },
+        "427나5124": {
+            "start_time": "2025-09-01 09:31",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 77,
+            "car_type": "2.전기"
+        },
+        "337다5087": {
+            "start_time": "2025-09-01 02:46",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 45,
+            "car_type": "4.해당사항 없음"
+        },
+        "925파8812": {
+            "start_time": "2025-08-29 20:02",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 64,
+            "car_type": "1.소형"
+        },
+        "791나8004": {
+            "start_time": "2025-08-31 06:29",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 38,
+            "car_type": "3.장애인"
+        },
+        "516사9737": {
+            "start_time": "2025-08-30 03:49",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 48,
+            "car_type": "1.소형"
+        },
+        "777하7170": {
+            "start_time": "2025-08-30 05:17",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 86,
+            "car_type": "1.소형"
+        },
+        "655차3145": {
+            "start_time": "2025-08-30 00:57",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 10,
+            "car_type": "2.전기"
+        },
+        "734가8139": {
+            "start_time": "2025-08-29 21:22",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 66,
+            "car_type": "2.전기"
+        },
+        "958하9774": {
+            "start_time": "2025-09-01 12:02",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 85,
+            "car_type": "2.전기"
+        },
+        "102타6975": {
+            "start_time": "2025-08-30 19:26",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 84,
+            "car_type": "2.전기"
+        },
+        "745사3552": {
+            "start_time": "2025-08-31 06:07",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 75,
+            "car_type": "2.전기"
+        },
+        "891가1636": {
+            "start_time": "2025-08-31 05:08",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 6,
+            "car_type": "4.해당사항 없음"
+        },
+        "931사3262": {
+            "start_time": "2025-08-29 14:04",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 25,
+            "car_type": "2.전기"
+        },
+        "794나1236": {
+            "start_time": "2025-08-31 01:35",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 79,
+            "car_type": "4.해당사항 없음"
+        },
+        "563마2644": {
+            "start_time": "2025-08-30 07:09",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 22,
+            "car_type": "2.전기"
+        },
+        "956가6205": {
+            "start_time": "2025-08-30 23:29",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 72,
+            "car_type": "2.전기"
+        },
+        "160바9607": {
+            "start_time": "2025-08-30 06:33",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 97,
+            "car_type": "3.장애인"
+        },
+        "913라1715": {
+            "start_time": "2025-08-30 12:51",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 21,
+            "car_type": "3.장애인"
+        },
+        "917하5042": {
+            "start_time": "2025-08-30 03:27",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 59,
+            "car_type": "4.해당사항 없음"
+        },
+        "950하1681": {
+            "start_time": "2025-08-30 07:39",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 91,
+            "car_type": "2.전기"
+        },
+        "666아5971": {
+            "start_time": "2025-09-01 06:40",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 94,
+            "car_type": "1.소형"
+        },
+        "813바1060": {
+            "start_time": "2025-08-30 08:53",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 71,
+            "car_type": "2.전기"
+        },
+        "840라1105": {
+            "start_time": "2025-08-31 10:30",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 46,
+            "car_type": "2.전기"
+        },
+        "468아1399": {
+            "start_time": "2025-08-30 16:06",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 47,
+            "car_type": "1.소형"
+        },
+        "779사3550": {
+            "start_time": "2025-08-31 12:24",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 38,
+            "car_type": "1.소형"
+        },
+        "571아5585": {
+            "start_time": "2025-08-31 19:34",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 41,
+            "car_type": "3.장애인"
+        },
+        "787타6105": {
+            "start_time": "2025-08-30 02:25",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 66,
+            "car_type": "4.해당사항 없음"
+        },
+        "146나2531": {
+            "start_time": "2025-08-31 15:59",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 18,
+            "car_type": "1.소형"
+        },
+        "712다7595": {
+            "start_time": "2025-08-31 18:28",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 97,
+            "car_type": "3.장애인"
+        },
+        "121다5251": {
+            "start_time": "2025-08-30 14:19",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 20,
+            "car_type": "1.소형"
+        },
+        "900라9362": {
+            "start_time": "2025-08-30 07:50",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 87,
+            "car_type": "2.전기"
+        },
+        "633다7722": {
+            "start_time": "2025-09-01 10:03",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 79,
+            "car_type": "1.소형"
+        },
+        "584아7831": {
+            "start_time": "2025-09-01 06:41",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 64,
+            "car_type": "1.소형"
+        },
+        "964바4045": {
+            "start_time": "2025-08-29 22:48",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 40,
+            "car_type": "1.소형"
+        },
+        "968라7302": {
+            "start_time": "2025-08-31 02:07",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 2,
+            "position_num": 21,
+            "car_type": "1.소형"
+        },
+        "637다5763": {
+            "start_time": "2025-08-31 03:31",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 30,
+            "car_type": "3.장애인"
+        },
+        "627바9483": {
+            "start_time": "2025-08-31 16:12",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 39,
+            "car_type": "1.소형"
+        },
+        "839파4382": {
+            "start_time": "2025-08-31 19:41",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 57,
+            "car_type": "3.장애인"
+        },
+        "912다3043": {
+            "start_time": "2025-08-30 17:47",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 2,
+            "position_num": 46,
+            "car_type": "3.장애인"
+        },
+        "964타3868": {
+            "start_time": "2025-08-29 20:32",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 65,
+            "car_type": "2.전기"
+        },
+        "793나7975": {
+            "start_time": "2025-08-31 17:47",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 73,
+            "car_type": "1.소형"
+        },
+        "566라3683": {
+            "start_time": "2025-09-01 02:22",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 92,
+            "car_type": "3.장애인"
+        },
+        "633다5465": {
+            "start_time": "2025-09-01 13:01",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 1,
+            "position_num": 93,
+            "car_type": "1.소형"
+        },
+        "267라9138": {
+            "start_time": "2025-08-31 15:22",
+            "end_time": "",
+            "is_guest": false,
+            "floor": 3,
+            "position_num": 61,
+            "car_type": "2.전기"
+        },
+        "399차5169": {
+            "start_time": "2025-08-31 12:24",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 3,
+            "position_num": 86,
+            "car_type": "2.전기"
+        },
+        "1111": {
+            "start_time": "2025-09-01 14:14",
+            "end_time": "",
+            "is_guest": true,
+            "floor": 1,
+            "position_num": 1,
+            "car_type": "2.전기"
+        }
+    },
+    "user_history_db": {
+        "958자1249": [
+            {
+                "start_time": "2025-08-24 12:11",
+                "end_time": "2025-08-24 14:11",
+                "is_guest": false,
+                "floor": 3,
+                "position_num": 26,
+                "payment": 6000,
+                "car_type": "1.소형"
+            }
+        ],
+        "214카3451": [
+            {
+                "start_time": "2025-08-25 11:11",
+                "end_time": "2025-08-25 14:11",
+                "is_guest": true,
+                "floor": 1,
+                "position_num": 35,
+                "payment": 8000,
+                "car_type": "1.소형"
+            }
+        ],
+        "483파7084": [
+            {
+                "start_time": "2025-08-22 12:11",
+                "end_time": "2025-08-22 13:11",
+                "is_guest": true,
+                "floor": 1,
+                "position_num": 58,
+                "payment": 6000,
+                "car_type": "1.소형"
+            }
+        ],
+        "935아7363": [
+            {
+                "start_time": "2025-08-27 12:11",
+                "end_time": "2025-08-27 14:11",
+                "is_guest": false,
+                "floor": 2,
+                "position_num": 3,
+                "payment": 4500,
+                "car_type": "2.전기"
+            }
+        ],
+        "621하7900": [
+            {
+                "start_time": "2025-08-24 06:11",
+                "end_time": "2025-08-24 14:11",
+                "is_guest": false,
+                "floor": 1,
+                "position_num": 47,
+                "payment": 6000,
+                "car_type": "2.전기"
+            }
+        ],
+        "349차4627": [
+            {
+                "start_time": "2025-08-26 12:11",
+                "end_time": "2025-08-26 13:11",
+                "is_guest": true,
+                "floor": 3,
+                "position_num": 60,
+                "payment": 6000,
+                "car_type": "1.소형"
+            }
+        ],
+        "515가2148": [
+            {
+                "start_time": "2025-08-23 07:11",
+                "end_time": "2025-08-23 14:11",
+                "is_guest": false,
+                "floor": 3,
+                "position_num": 17,
+                "payment": 3500,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "105다9594": [
+            {
+                "start_time": "2025-08-31 09:11",
+                "end_time": "2025-08-31 14:11",
+                "is_guest": true,
+                "floor": 3,
+                "position_num": 63,
+                "payment": 4500,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "448파5251": [
+            {
+                "start_time": "2025-08-24 12:11",
+                "end_time": "2025-08-24 13:11",
+                "is_guest": false,
+                "floor": 1,
+                "position_num": 38,
+                "payment": 3500,
+                "car_type": "2.전기"
+            }
+        ],
+        "236차3651": [
+            {
+                "start_time": "2025-08-22 10:11",
+                "end_time": "2025-08-22 13:11",
+                "is_guest": true,
+                "floor": 2,
+                "position_num": 11,
+                "payment": 8000,
+                "car_type": "2.전기"
+            }
+        ],
+        "165마4739": [
+            {
+                "start_time": "2025-08-26 05:11",
+                "end_time": "2025-08-26 14:11",
+                "is_guest": true,
+                "floor": 3,
+                "position_num": 46,
+                "payment": 6000,
+                "car_type": "1.소형"
+            }
+        ],
+        "256아8120": [
+            {
+                "start_time": "2025-08-27 13:11",
+                "end_time": "2025-08-27 13:11",
+                "is_guest": true,
+                "floor": 2,
+                "position_num": 80,
+                "payment": 4500,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "288다5688": [
+            {
+                "start_time": "2025-08-25 10:11",
+                "end_time": "2025-08-25 14:11",
+                "is_guest": true,
+                "floor": 3,
+                "position_num": 63,
+                "payment": 3500,
+                "car_type": "1.소형"
+            }
+        ],
+        "104차9290": [
+            {
+                "start_time": "2025-08-31 10:11",
+                "end_time": "2025-08-31 14:11",
+                "is_guest": false,
+                "floor": 3,
+                "position_num": 50,
+                "payment": 8000,
+                "car_type": "3.장애인"
+            }
+        ],
+        "140자3680": [
+            {
+                "start_time": "2025-08-28 05:11",
+                "end_time": "2025-08-28 13:11",
+                "is_guest": false,
+                "floor": 3,
+                "position_num": 42,
+                "payment": 6000,
+                "car_type": "3.장애인"
+            }
+        ],
+        "239아8013": [
+            {
+                "start_time": "2025-08-28 10:11",
+                "end_time": "2025-08-28 13:11",
+                "is_guest": false,
+                "floor": 3,
+                "position_num": 79,
+                "payment": 3500,
+                "car_type": "2.전기"
+            }
+        ],
+        "662하9402": [
+            {
+                "start_time": "2025-08-22 11:11",
+                "end_time": "2025-08-22 13:11",
+                "is_guest": false,
+                "floor": 1,
+                "position_num": 57,
+                "payment": 3500,
+                "car_type": "1.소형"
+            }
+        ],
+        "771사2655": [
+            {
+                "start_time": "2025-08-30 06:11",
+                "end_time": "2025-08-30 13:11",
+                "is_guest": false,
+                "floor": 3,
+                "position_num": 48,
+                "payment": 8000,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "245다5745": [
+            {
+                "start_time": "2025-08-22 05:11",
+                "end_time": "2025-08-22 14:11",
+                "is_guest": false,
+                "floor": 2,
+                "position_num": 62,
+                "payment": 4500,
+                "car_type": "1.소형"
+            }
+        ],
+        "563카9985": [
+            {
+                "start_time": "2025-08-27 08:11",
+                "end_time": "2025-08-27 13:11",
+                "is_guest": true,
+                "floor": 1,
+                "position_num": 27,
+                "payment": 8000,
+                "car_type": "3.장애인"
+            }
+        ],
+        "306마9372": [
+            {
+                "start_time": "2025-08-27 06:11",
+                "end_time": "2025-08-27 14:11",
+                "is_guest": true,
+                "floor": 2,
+                "position_num": 89,
+                "payment": 4500,
+                "car_type": "1.소형"
+            }
+        ],
+        "895바7167": [
+            {
+                "start_time": "2025-08-25 08:11",
+                "end_time": "2025-08-25 13:11",
+                "is_guest": true,
+                "floor": 3,
+                "position_num": 80,
+                "payment": 8000,
+                "car_type": "3.장애인"
+            }
+        ],
+        "380차8636": [
+            {
+                "start_time": "2025-08-30 12:11",
+                "end_time": "2025-08-30 14:11",
+                "is_guest": true,
+                "floor": 1,
+                "position_num": 29,
+                "payment": 3500,
+                "car_type": "3.장애인"
+            }
+        ],
+        "927마9368": [
+            {
+                "start_time": "2025-08-28 07:11",
+                "end_time": "2025-08-28 13:11",
+                "is_guest": true,
+                "floor": 3,
+                "position_num": 89,
+                "payment": 8000,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "337다5087": [
+            {
+                "start_time": "2025-08-29 09:11",
+                "end_time": "2025-08-29 14:11",
+                "is_guest": false,
+                "floor": 3,
+                "position_num": 45,
+                "payment": 8000,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "791나8004": [
+            {
+                "start_time": "2025-08-22 07:11",
+                "end_time": "2025-08-22 13:11",
+                "is_guest": false,
+                "floor": 1,
+                "position_num": 38,
+                "payment": 3500,
+                "car_type": "3.장애인"
+            }
+        ],
+        "655차3145": [
+            {
+                "start_time": "2025-08-29 09:11",
+                "end_time": "2025-08-29 14:11",
+                "is_guest": false,
+                "floor": 2,
+                "position_num": 10,
+                "payment": 4500,
+                "car_type": "2.전기"
+            }
+        ],
+        "734가8139": [
+            {
+                "start_time": "2025-08-22 12:11",
+                "end_time": "2025-08-22 14:11",
+                "is_guest": true,
+                "floor": 2,
+                "position_num": 66,
+                "payment": 8000,
+                "car_type": "2.전기"
+            }
+        ],
+        "745사3552": [
+            {
+                "start_time": "2025-08-24 11:11",
+                "end_time": "2025-08-24 14:11",
+                "is_guest": false,
+                "floor": 1,
+                "position_num": 75,
+                "payment": 8000,
+                "car_type": "2.전기"
+            }
+        ],
+        "891가1636": [
+            {
+                "start_time": "2025-08-22 12:11",
+                "end_time": "2025-08-22 14:11",
+                "is_guest": false,
+                "floor": 2,
+                "position_num": 6,
+                "payment": 8000,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "794나1236": [
+            {
+                "start_time": "2025-08-27 13:11",
+                "end_time": "2025-08-27 14:11",
+                "is_guest": true,
+                "floor": 1,
+                "position_num": 79,
+                "payment": 6000,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "956가6205": [
+            {
+                "start_time": "2025-08-27 05:11",
+                "end_time": "2025-08-27 13:11",
+                "is_guest": false,
+                "floor": 2,
+                "position_num": 72,
+                "payment": 3500,
+                "car_type": "2.전기"
+            }
+        ],
+        "913라1715": [
+            {
+                "start_time": "2025-08-23 10:11",
+                "end_time": "2025-08-23 14:11",
+                "is_guest": true,
+                "floor": 3,
+                "position_num": 21,
+                "payment": 6000,
+                "car_type": "3.장애인"
+            }
+        ],
+        "917하5042": [
+            {
+                "start_time": "2025-08-26 07:11",
+                "end_time": "2025-08-26 13:11",
+                "is_guest": true,
+                "floor": 2,
+                "position_num": 59,
+                "payment": 4500,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "950하1681": [
+            {
+                "start_time": "2025-08-22 08:11",
+                "end_time": "2025-08-22 14:11",
+                "is_guest": false,
+                "floor": 2,
+                "position_num": 91,
+                "payment": 3500,
+                "car_type": "2.전기"
+            }
+        ],
+        "813바1060": [
+            {
+                "start_time": "2025-08-31 04:11",
+                "end_time": "2025-08-31 13:11",
+                "is_guest": true,
+                "floor": 3,
+                "position_num": 71,
+                "payment": 4500,
+                "car_type": "2.전기"
+            }
+        ],
+        "840라1105": [
+            {
+                "start_time": "2025-08-29 11:11",
+                "end_time": "2025-08-29 13:11",
+                "is_guest": true,
+                "floor": 2,
+                "position_num": 46,
+                "payment": 4500,
+                "car_type": "2.전기"
+            }
+        ],
+        "468아1399": [
+            {
+                "start_time": "2025-08-30 13:11",
+                "end_time": "2025-08-30 13:11",
+                "is_guest": true,
+                "floor": 2,
+                "position_num": 47,
+                "payment": 3500,
+                "car_type": "1.소형"
+            }
+        ],
+        "787타6105": [
+            {
+                "start_time": "2025-08-25 08:11",
+                "end_time": "2025-08-25 13:11",
+                "is_guest": false,
+                "floor": 1,
+                "position_num": 66,
+                "payment": 6000,
+                "car_type": "4.해당사항 없음"
+            }
+        ],
+        "146나2531": [
+            {
+                "start_time": "2025-08-27 10:11",
+                "end_time": "2025-08-27 14:11",
+                "is_guest": true,
+                "floor": 2,
+                "position_num": 18,
+                "payment": 6000,
+                "car_type": "1.소형"
+            }
+        ],
+        "712다7595": [
+            {
+                "start_time": "2025-08-31 04:11",
+                "end_time": "2025-08-31 14:11",
+                "is_guest": false,
+                "floor": 3,
+                "position_num": 97,
+                "payment": 6000,
+                "car_type": "3.장애인"
+            }
+        ],
+        "633다7722": [
+            {
+                "start_time": "2025-08-28 05:11",
+                "end_time": "2025-08-28 13:11",
+                "is_guest": false,
+                "floor": 2,
+                "position_num": 79,
+                "payment": 6000,
+                "car_type": "1.소형"
+            }
+        ],
+        "584아7831": [
+            {
+                "start_time": "2025-08-23 10:11",
+                "end_time": "2025-08-23 13:11",
+                "is_guest": true,
+                "floor": 1,
+                "position_num": 64,
+                "payment": 4500,
+                "car_type": "1.소형"
+            }
+        ]
+    }
+}
