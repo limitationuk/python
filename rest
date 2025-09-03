@@ -1,0 +1,10 @@
+import requests
+from urllib.parse import quote
+
+APIURL = "https://restcountries.com/v3.1/name/"
+country = input("국가명을 입력하세요: ")
+response = requests.get(APIURL + quote(country))
+
+result = response.json()
+
+print(result)

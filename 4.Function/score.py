@@ -35,14 +35,22 @@ def subject_average(student_scores: dict, subjects: list): #과목별 평균 함
     이 반의 각 과목별 평균을 구해서 딕셔너리로 반환
     예) {"국어": 80.8, "수학": 35.3, "영어": 96.6, "과학": 85.3, "사회": 38.8}
     """
-    sub_avg = {}
-    for i in range(len(subjects)):
-        total = 0
-        for students, scores in student_scores.items():
-            total += int(scores[i])
-        sub_avg[subjects[i]] = round(total/len(student_scores),2)     
+    sub_sum = [0] *len(subjects)
+    for _, scores in student_scores.items():
+        for idx, s in enumerate(scores):
+            sub_sum[idx] += int(s)
 
-    return sub_avg
+    sub_avg = list(map(lambda x: x / len(student_scores), sub_sum))
+    return dict(zip(subjects, sub_avg))    
+
+    # sub_avg = {}
+    # for i in range(len(subjects)):
+    #     total = 0
+    #     for students, scores in student_scores.items():
+    #         total += int(scores[i])
+    #     sub_avg[subjects[i]] = round(total/len(student_scores),2)     
+
+    # return sub_avg
 
 
     # sub_avg = {} #과목별 평균값 딕셔너리
@@ -64,15 +72,25 @@ def student_average(student_scores: dict):  #학생별 평균 함수
     각 학생별 전과목 평균 점수를 정렬된 튜플의 리스트로 반환
     예) [("이영희", 89.8), ("김철수", 86.6), ("박민수", 84.8)]
     """
+    names = []
+    scores = []
 
-    stud_avg = {}
-    for student, scores in student_scores.items():
-        total = 0
-        for i in scores:
-            total += int(i)
-        stud_avg[student] = total/len(scores)
+    for n, s in student_scores.items():
+        names.append(n)
+        int_score = map(lambda x: int(x), s)
+        scores.append(sum(int_score) / len(s))
+    unsorted_list = list((zip(names, scores)))
+    return sorted(unsorted_list, key = lambda x: x[1], reverse=True)
+
+
+    # stud_avg = {}
+    # for student, scores in student_scores.items():
+    #     total = 0
+    #     for i in scores:
+    #         total += int(i)
+    #     stud_avg[student] = total/len(scores)
     
-    return sorted(stud_avg.items(), key=lambda x: x[1], reverse=True)
+    # return sorted(stud_avg.items(), key=lambda x: x[1], reverse=True)
 
 
     # stud_avg = {} # 학생별 평균값 딕셔너리

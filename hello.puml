@@ -1,0 +1,18 @@
+@startuml
+Player -> Adventure : 전직 요청
+Adventure -> JobSystem: 캐릭터 레벨,스탯
+JobSystem -> JobSystem: 필요레벨,스탯 확인
+alt 레벨, 스탯 기준 이상
+    JobSystem->Adventure: 조건 달성
+    alt 퀘스트 완료
+        Adventure->Adventure: 스킬 초기화
+        Adventure->Adventure: 새로운 스킬 습득
+        Adventure-->Player: 전직 완료 알림
+    else 퀘스트 미완료
+        Adventure -->Player: 퀘스트 진행 요청
+    end
+else 레벨, 스탯 기준 미만
+    JobSystem -> Adventure: 조건 미달성
+    Adventure --> Player : 레벨/스탯 부족 안내
+end
+@enduml

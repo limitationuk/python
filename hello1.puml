@@ -1,0 +1,52 @@
+@startuml
+
+Adventurer <|-- Warrior
+Adventurer <|-- Mage
+Warrior <|--Fighter
+Mage<|--Wizard
+
+Jobsystem <- Adventurer
+Adventurer <-- Jobsystem
+
+class Player{
+
+}
+
+class Adventurer{
+    level: int
+    skill: list[]
+    stats: dict{
+     str: int
+     dex: int
+     int: int
+     luk: int}
+    basic_skill()
+    class_change_request()
+}
+
+class Jobsystem{
+    checklevel()
+    checkquest()
+}
+
+class Warrior{
+    swordMastery()
+    powerStrike()
+}
+
+class Mage {
+    +magicClaw()
+    +energyBolt()
+}
+
+class Fighter {
+    +swordBooster()
+    +rage()
+}
+
+class Wizard {
+    +meditation()
+    +teleport()
+}
+
+@enduml
