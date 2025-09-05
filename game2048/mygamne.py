@@ -1,3 +1,5 @@
+import random
+
 BOARD_WIDTH = 800
 BOARD_HEIGHT = 800
 NUM_GRID = 4
@@ -69,20 +71,38 @@ def push_and_merge(rotate_times, board_map):
 
     return new_board
 
-def draw_cell(screen, row, column, value):
+def draw_cell(screen, row, column, font, value):
     rect = pygame.Rect(column * GRID_SIZE+TILE_MARGIN, row * GRID_SIZE +
                        TILE_MARGIN, GRID_SIZE-TILE_MARGIN*2, GRID_SIZE-TILE_MARGIN*2)
     color = TILE_COLORS.get(value, DEFAULT_COLOR) #value가 없으면 기본 컬러 적용
     pygame.draw.rect(screen, color , rect)
+    
+    #Display number
+    if value != 0:
+        text_area = font.render(str(value), True, (0,0,0))
+        cell_x = rect.centerx - (text_area.get_width() // 2)
+        cell_y = rect.centery - (text_area.get_height() // 2)
+        screen.blit(text_area, (cell_x, cell_y))
 
 
-def render_board(screen, board_map):
+def render_board(screen, board_map, font):
     screen.fill(BG_COLOR)
 
     for row in range(NUM_GRID):
         for column in range(NUM_GRID):
-            draw_cell(screen, row, column, board_map[row][column])
+            draw_cell(screen, row, column, font, board_map[row][column])
 
+def spawn_tile(board_map):
+    empty_cells = [(r,c) for r in range(NUM_GRID)
+                    for c in range(NUM_GRID) if board_map[r][c] == 0]
+    
+    if empty_cells:
+        new_value = random.choices([2, 4], weights=[0.9, 0.1])[0] #choices 리스트로 반환 
+        spawn_r, spawn_c = random.choice(empty_cells) # choice하나의 값을 반환
+        board_map[spawn_r][spawn_c] = new_value
+        return True
+    #No empty cells left. 빈공간이 없으면 게임오버
+    return False
 
 if __name__ == "__main__":
 
@@ -92,9 +112,13 @@ if __name__ == "__main__":
     # pygame setup
     pygame.init()
     screen = pygame.display.set_mode((BOARD_HEIGHT, BOARD_HEIGHT))
+    pygame.display.set_caption("2048 Game")
     clock = pygame.time.Clock()
     running = True
+    font = pygame.font.SysFont("Arial", 50, bold=True)
     board_map = [[0 for _ in range(NUM_GRID)] for _ in range(NUM_GRID)]
+
+    spawn_tile(board_map)
 
     while running:
         # poll for events
@@ -116,13 +140,14 @@ if __name__ == "__main__":
                     case _:
                         pass
                 if rotate_times != -1:
-                    push_and_merge(rotate_times,board_map)
+                    board_map = push_and_merge(rotate_times,board_map)
+                    spawn_tile(board_map)
                 
         # fill the screen with a color to wipe away anything from last frame
         # screen.fill(BG_COLOR)
 
         # RENDER YOUR GAME HERE
-        render_board(screen, board_map)
+        render_board(screen, board_map,font)
 
         # flip() the display to put your work on screen
         pygame.display.flip()
