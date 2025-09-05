@@ -29,9 +29,45 @@ def rotate(is_cw, board_map):
     else:
         #ccw
         new_map = [list(row) for row in zip(*board_map)][::-1]
-    
     return new_map
 
+def merge_row(row):
+    new_row = []
+    skip_merge = False
+
+    for i in range(NUM_GRID):
+        if skip_merge is True:
+            skip_merge = False
+            continue
+        if row[i] == 0: #값이 0이라면 그대로 진행
+            continue
+        elif i+1 < len(row) and row[i] == row[i+1]: # 마지막인덱스가 아니고, 현재 값이 다음 값과 같다면 값의 2배
+            new_row.append(row[i]*2)
+            skip_merge = True
+        elif i < len(row):  # 마지막 인덱스가 아니라면
+            new_row.append(row[i])
+    while len(new_row) < NUM_GRID: # 길이나 4 이하면 0을 채워준다.
+        new_row.append(0)
+    return new_row
+
+def push_and_merge(rotate_times, board_map):
+    rotated_map = board_map
+    
+    #Rotate CW90 * rotate_times
+    for _ in range(rotate_times):
+        rotated_map = rotate(True,rotated_map)
+    
+    #Merge row
+    new_board = []  #rotated_map도 가능?
+    for row in rotated_map: 
+        new_row = merge_row(row)
+        new_board.append(new_row)
+
+    #Rotate CCW90 * rotate_times
+    for _ in range(rotate_times):
+        new_board = rotate(False,new_board)
+
+    return new_board
 
 def draw_cell(screen, row, column, value):
     rect = pygame.Rect(column * GRID_SIZE+TILE_MARGIN, row * GRID_SIZE +
@@ -67,21 +103,20 @@ if __name__ == "__main__":
             if event.type == pygame.QUIT:
                 running = False
             elif event.type == pygame.KEYDOWN:
-                match event.key:
+                rotate_times = -1
+                match event.key:    
                     case pygame.K_LEFT:
-                        board_map[0][0] = 2
-                        pass
+                        rotate_times = 0
                     case pygame.K_RIGHT:
-                        board_map[0][1] = 4
-                        pass
+                        rotate_times = 2
                     case pygame.K_UP:
-                        board_map[0][2] = 8
-                        pass
+                        rotate_times = 3
                     case pygame.K_DOWN:
-                        board_map[0][3] = 16
-                        pass
+                        rotate_times = 1
                     case _:
                         pass
+                if rotate_times != -1:
+                    push_and_merge(rotate_times,board_map)
                 
         # fill the screen with a color to wipe away anything from last frame
         # screen.fill(BG_COLOR)
