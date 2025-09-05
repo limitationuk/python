@@ -21,6 +21,18 @@ TILE_COLORS = {
 
 DEFAULT_COLOR = TILE_COLORS[0]
 
+def rotate(is_cw, board_map):
+    new_map = None
+    if is_cw:
+        #CW
+        new_map = [list(row) for row in zip(*board_map[::-1])] #튜플은 수정불가 -> 리스트로 반환
+    else:
+        #ccw
+        new_map = [list(row) for row in zip(*board_map)][::-1]
+    
+    return new_map
+
+
 def draw_cell(screen, row, column, value):
     rect = pygame.Rect(column * GRID_SIZE+TILE_MARGIN, row * GRID_SIZE +
                        TILE_MARGIN, GRID_SIZE-TILE_MARGIN*2, GRID_SIZE-TILE_MARGIN*2)
