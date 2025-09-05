@@ -10,7 +10,10 @@
 
 
 
-#아예 다른 폴더에서 import하게 하려면?
+#다른 폴더에서 import 하려면?
 import sys
-sys.path.append("../6.Modules")
-from calc import add
+sys.path.append("../modules/calc/basic_calc")
+#`from calc import add
+from modules.calc.basic_calc import add
+
+print(f"{add(1,3)}")
